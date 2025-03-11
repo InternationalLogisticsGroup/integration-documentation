@@ -31,7 +31,7 @@
             "name": "JSON Schema reference",
             "externalDocs": {
                 "description": "Download examples",
-                "url": "https://github.com/Jitterbit-EMEA/ilg-documentation/tree/master/json_examples"
+                "url": "https://github.com/InternationalLogisticsGroup/integration-documentation/tree/main/json_examples"
             },
             "description": "ILG's common data model schemas for mapping purposes across all interface types"
         },
@@ -39,7 +39,7 @@
             "name": "CSV Schema reference",
             "externalDocs": {
                 "description": "Download examples",
-                "url": "https://github.com/Jitterbit-EMEA/ilg-documentation/tree/master/csv_examples"
+                "url": "https://github.com/InternationalLogisticsGroup/integration-documentation/tree/master/csv_examples"
             },
             "description": "ILG's common data model schemas for mapping purposes across all interface types"
         }
