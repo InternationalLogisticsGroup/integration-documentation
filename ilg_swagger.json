@@ -2,7 +2,7 @@
     "openapi": "3.0.3",
     "info": {
         "title": "ILG WMS Schema documentation.",
-        "description": "ILG WMS API V2.0 - Provides the capability to integrate with ILG's warehouse management system.\nThe API accepts requests in JSON format and if validated, responds back with a unique transaction correlation id.\n\nAuthentication is achieved using an API key which can be requested from [ILG Support](mailto:itsupport@ilguk.com)\n\n\n\nCSV\n\nCustomers providing CSV files via FTP may reference the files within the csv-examples section of the documentation. Please contact your ILG project representative for more information on connectivity to ILG's FTP.\n\nSupporting Documentation links:\n\n[Mapping Template](https://github.com/InternationalLogisticsGroup/integration-documentation/tree/main/supporting_docs/)\n\n[Available Interfaces](https://github.com/InternationalLogisticsGroup/integration-documentation/tree/main/supporting_docs/)\n\nTerms of service can be found through hte International Logistics group website:\n\n[International Logistics Group](https://www.international-logistics-group.com/)",
+        "description": "ILG WMS API V2.0 - Provides the capability to integrate with ILG's warehouse management system.\nThe API accepts requests in JSON format and if validated, responds back with a unique transaction correlation id.\n\nAuthentication is achieved using an API key which can be requested from [ILG Support](mailto:itsupport@ilguk.com)\n\n\n\nCSV\n\nCustomers providing CSV files via FTP may reference the files within the csv-examples section of the documentation. Please contact your ILG project representative for more information on connectivity to ILG's FTP.\n\nSupporting Documentation links:\n\n[Mapping Template](https://github.com/InternationalLogisticsGroup/integration-documentation/tree/main/supporting_docs/)\n\n[Available Interfaces](https://github.com/InternationalLogisticsGroup/integration-documentation/tree/main/supporting_docs/)\n\nTerms of service can be found through the International Logistics group website:\n\n[International Logistics Group](https://www.international-logistics-group.com/)",
         "version": "1.0"
     },
     "servers": [
@@ -107,6 +107,7 @@
                         "description": "Example schema"
                     }
                 }
+            }
         },
         "/json-examples": {
             "options": {
@@ -170,7 +171,6 @@
                         }
                     }
                 },
-                ,
                 "responses": {
                     "100": {
                         "description": "Example schema"
